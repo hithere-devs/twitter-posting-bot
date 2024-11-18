@@ -1,0 +1,36 @@
+{
+	"name": "twitter-posting-bot",
+	"version": "1.0.0",
+	"main": "server.ts",
+	"scripts": {
+		"start": "node dist/server.js",
+		"dev": "nodemon server.ts",
+		"build": "tsc"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"axios": "^1.7.7",
+		"cheerio": "^1.0.0",
+		"crawlee": "^3.11.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.21.1",
+		"helmet": "^8.0.0",
+		"morgan": "^1.10.0",
+		"puppeteer": "^23.6.0",
+		"twitter-api-sdk": "^1.2.1",
+		"yamljs": "^0.3.0"
+	},
+	"devDependencies": {
+		"@types/express": "^5.0.0",
+		"@types/helmet": "^0.0.48",
+		"@types/morgan": "^1.9.9",
+		"@types/node": "^22.7.8",
+		"@types/yamljs": "^0.2.34",
+		"nodemon": "^3.1.7",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.6.3"
+	}
+}
